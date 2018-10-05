@@ -73,7 +73,7 @@ client.on('message', msg => {
 });
 
 
-client.login(ENV['BOT_TOKEN']);
+client.login(config.BOT_TOKEN);
 
 
 // finally we set the server to listen for requests :)
